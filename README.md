@@ -1,6 +1,7 @@
 # Pico script to remove windows password
 script using curcuitpy to remove windows password on non-encrypted (without bitlocker) drives.
 ## Use this only on devices that you have permission to use it on. This Repo is for educational purposes only!
+This was tested on windows 10
 # LED
 The led first lights up to give you some time to react. Then it flashes x number of times with x being the mode number. 
 1. mode - This is in the booted usb
