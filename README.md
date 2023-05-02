@@ -8,7 +8,7 @@ The led first lights up to give you some time to react. Then it flashes x number
 3. mode - This is once windows is logged in
 # How to use
 1. Install [circuitpy](https://circuitpython.org/board/raspberry_pi_pico/) on the rpi pico. You can do this simply by holding the bootsel button when plugging the rpi and then putting the file in the link inside the rpi pico directory (on the disk that was mounted). Note: if You installed Anything on this rpi pico previously you have to wipe it first by putting [flash_nuke.uf2](https://github.com/dwelch67/raspberrypi-pico/raw/main/flash_nuke.uf2) into the same directory.
-2. Get a bootable windows usb
+2. Get a bootable windows usb - You can create one [here](https://support.microsoft.com/en-us/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d)
 3. copy the files from here to rpi pico (adafruit_hid to lib)
 4. make sure to keep the var.txt as 0 before plugging it in to the target pc (every time you plug it in it increases)
 5. boot to the to the windows usb
