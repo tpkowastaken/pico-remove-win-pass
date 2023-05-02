@@ -1,6 +1,11 @@
 # Pico script to remove windows password
 script using curcuitpy to remove windows password on non-encrypted (without bitlocker) drives.
-# Use this only on devices that you have permission to use it on. This Repo is for educational purposes only!
+## Use this only on devices that you have permission to use it on. This Repo is for educational purposes only!
+# LED
+The led first lights up to give you some time to react. Then it flashes x number of times with x being the mode number. 
+1. mode - This is in the booted usb
+2. mode - This is once windows boots
+3. mode - This is once windows is logged in
 # How to use
 1. Install [circuitpy](https://circuitpython.org/board/raspberry_pi_pico/) on the rpi pico. You can do this simply by holding the bootsel button when plugging the rpi and then putting the file in the link inside the rpi pico directory (on the disk that was mounted). Note: if You installed Anything on this rpi pico previously you have to wipe it first by putting [flash_nuke.uf2](https://github.com/dwelch67/raspberrypi-pico/raw/main/flash_nuke.uf2) into the same directory.
 2. Get a bootable windows usb
